@@ -1,0 +1,381 @@
+.hello {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  background-color: #0a1939;
+  padding: 20px, 40px, 20px, 40px;
+  height: 73.63px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a {
+  margin-left: 50px;
+  color: white;
+  text-decoration: none;
+}
+label img {
+  width: 30px;
+  display: none;
+}
+nav input {
+  display: none;
+}
+nav ul {
+  display: none;
+}
+nav ul li p {
+  text-align: center;
+}
+main {
+  background-color: #061330;
+  margin-top: 0px;
+}
+main p {
+  font: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.sub {
+  font: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+#mains {
+  width: 1200px;
+  height: auto;
+  padding-top: 100px;
+  margin-left: 104px;
+
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-partA {
+  width: 100%;
+}
+.main-partB {
+  width: 100%;
+}
+
+.a {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+table {
+  width: 1200px;
+  margin-top: 70px;
+}
+.l {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+.l img {
+  width: 22px;
+}
+td p {
+  font-size: 15px;
+  text-align: center;
+}
+th {
+  color: white;
+  padding-bottom: 10px;
+  text-align: center;
+}
+main button {
+  width: 110px;
+  background-image: url("./Rectangle\ 29.png");
+  color: white;
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+}
+
+span {
+  color: rgb(80, 78, 78);
+}
+.center-main {
+  background-image: url("./Rectangle\ 38.png");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 80px;
+}
+.group {
+  width: 50%;
+
+  height: auto;
+}
+.group img {
+  width: 100%;
+}
+.title {
+  width: 60%;
+}
+
+.title h1 {
+  text-align: justify;
+  color: #ffffff;
+  font: Poppins;
+}
+.lorem {
+  width: 60%;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.lorem p {
+  text-align: justify;
+  color: #ffffff;
+}
+
+.lo {
+  width: 70px;
+  background-color: #0f1535;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo h3,
+.logo p {
+  color: #ffffff;
+}
+.second-footer {
+  background-image: url("./Rectangle\ 38.png");
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.second-footer .head h1 {
+  margin-left: 50px;
+  color: white;
+}
+.iam-B {
+  padding-top: 100px;
+}
+.iam-B img {
+  height: 500px;
+}
+.short {
+  width: 400px;
+}
+footer {
+  background-image: url("./Rectangle\ 38.png");
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+footer h3,
+footer p {
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li {
+    width: auto;
+  }
+  nav ul {
+    width: auto;
+  }
+  footer div {
+    width: auto;
+  }
+  nav {
+    width: auto;
+  }
+  .second-footer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+  }
+  .iam-B img {
+    width: 60%;
+  }
+  .part-a,
+  .part-b,
+  .part-c {
+    width: auto;
+  }
+  label img {
+    display: block;
+    position: relative;
+  }
+  nav a {
+    display: none;
+  }
+  nav ul {
+    position: absolute;
+    top: 50px;
+    background-color: #acbfe7;
+  }
+  nav input[type="checkbox"]:checked + ul {
+    display: block;
+    width: 100%;
+  }
+  .part-a img {
+    width: 70%;
+  }
+  main {
+    width: auto;
+  }
+  #mains {
+    width: 80%;
+  }
+  .main-partA {
+    width: 80%;
+  }
+  .sub {
+    width: auto;
+  }
+  .main-partB {
+    width: 100%;
+  }
+  .l {
+    width: 80%;
+  }
+  .l div {
+    width: auto;
+  }
+  table {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  table p {
+    font-size: 5px;
+  }
+  table th {
+    font-size: 5px;
+  }
+  table img {
+    width: 10px;
+  }
+
+  ul p {
+    text-align: center;
+  }
+  .l div {
+    width: auto;
+  }
+  .l img {
+    width: 10px;
+  }
+  table th {
+    text-align: center;
+  }
+  .main-partA p {
+    font-size: smaller;
+  }
+  .center-main {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    width: auto;
+  }
+  .lorem {
+    width: auto;
+  }
+  .group {
+    width: auto;
+  }
+  .head {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    width: auto;
+  }
+  .lo {
+    width: auto;
+  }
+  .head h1 {
+    font-size: medium;
+  }
+  .lorem p {
+    font-size: smaller;
+  }
+  .logo h3 {
+    font-size: smaller;
+  }
+  .logo p {
+    font-size: smaller;
+  }
+  .lo img {
+    width: auto;
+  }
+  .second-footer {
+    width: 100%;
+    background-image: url("./Rectangle\ 38.png");
+  }
+  .second-footer img {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  nav {
+    width: auto;
+  }
+  .part-a,
+  .part-b,
+  .part-c {
+    width: auto;
+  }
+  main {
+    width: auto;
+  }
+  #mains {
+    width: 80%;
+  }
+  table {
+    width: 100%;
+  }
+}
